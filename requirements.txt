@@ -1,0 +1,7 @@
+ipython==8.9.0
+numpy==1.24.4
+opencv_python==4.8.0.76
+Pillow==8.4.0
+Pillow==10.0.0
+torchvision==0.15.2
+ultralytics==8.0.159
