@@ -9,6 +9,10 @@ import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
+import os
+#------------------Set current working directory to the directory containing this script
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 
 #------------------Function to resize image
 def resize_image(image, width, height):
@@ -31,11 +35,11 @@ def blur_image(image, kernel_size):
 
 
 sample_images = [
-    r"C:\Users\muddu krishna\Desktop\fovitech\yolo_v8\training_spine_l1_5_s1\sample images\T1_0046_S8_png_jpg.rf.40468bf3ddc313a31a453d431e7adfe2.jpg",
-    r"C:\Users\muddu krishna\Desktop\fovitech\yolo_v8\training_spine_l1_5_s1\sample images\T1_0148_S8_png_jpg.rf.83b573f631fe81a094a74b22506b99ef.jpg",
-    r"C:\Users\muddu krishna\Desktop\fovitech\yolo_v8\training_spine_l1_5_s1\sample images\T1_0249_S8_png_jpg.rf.f19f268a8de590ac325ecc499e55fe70.jpg",
-    r"C:\Users\muddu krishna\Desktop\fovitech\yolo_v8\training_spine_l1_5_s1\sample images\T1_0311_S8_png_jpg.rf.0144375d7747c7f9db09a1c238e9a815.jpg",
-    r"C:\Users\muddu krishna\Desktop\fovitech\yolo_v8\training_spine_l1_5_s1\sample images\T1_0348_S8_png_jpg.rf.644408815cf93e14cd25d568aaf93a69.jpg"
+    r"sample images\T1_0046_S8_png_jpg.rf.40468bf3ddc313a31a453d431e7adfe2.jpg",
+    r"sample images\T1_0148_S8_png_jpg.rf.83b573f631fe81a094a74b22506b99ef.jpg",
+    r"sample images\T1_0249_S8_png_jpg.rf.f19f268a8de590ac325ecc499e55fe70.jpg",
+    r"sample images\T1_0311_S8_png_jpg.rf.0144375d7747c7f9db09a1c238e9a815.jpg",
+    r"sample images\T1_0348_S8_png_jpg.rf.644408815cf93e14cd25d568aaf93a69.jpg"
     ]
 
 def main():
