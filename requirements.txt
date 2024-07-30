@@ -74,7 +74,7 @@ imageio==2.34.1
 imageio-ffmpeg==0.4.9
 keyboard==0.13.5
 numpy==1.26.4
-opencv-python==4.9.0.80
+opencv-python-headless
 pefile==2023.2.7
 pillow==10.3.0
 psutil==5.9.8
