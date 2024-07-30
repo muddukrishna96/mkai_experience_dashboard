@@ -46,7 +46,7 @@ def main():
     st.title("Image and Video Processing Application")
 
     st.sidebar.title("Navigation")
-    app_mode = st.sidebar.selectbox("Choose the app mode", ["Image/Video Processing", "Page 2"])
+    app_mode = st.sidebar.selectbox("Choose the app mode", ["Medical Field", "Page 2"])
 
     if app_mode == "Medical Field":
         st.header("Upload an Image or Video")
