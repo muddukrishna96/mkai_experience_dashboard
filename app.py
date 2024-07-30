@@ -48,7 +48,7 @@ def main():
     st.sidebar.title("Navigation")
     app_mode = st.sidebar.selectbox("Choose the app mode", ["Image/Video Processing", "Page 2"])
 
-    if app_mode == "Image/Video Processing":
+    if app_mode == "Medical Field":
         st.header("Upload an Image or Video")
 
         uploaded_file = st.file_uploader("Choose an image or video file", type=["jpg", "jpeg", "png", "mp4"])
